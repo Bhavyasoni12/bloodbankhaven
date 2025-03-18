@@ -74,11 +74,11 @@ const Donate = () => {
                   </h3>
                   <ul className="space-y-3">
                     {[
-                      'Get a good night's sleep the night before your donation',
-                      'Eat a healthy meal within 2-3 hours before donating',
-                      'Drink plenty of water before and after donating',
-                      'Bring a valid ID with you to your appointment',
-                      'Wear a short-sleeved shirt or a shirt with sleeves that can be rolled up'
+                      "Get a good night\'s sleep the night before your donation",
+                      "Eat a healthy meal within 2-3 hours before donating",
+                      "Drink plenty of water before and after donating",
+                      "Bring a valid ID with you to your appointment",
+                      "Wear a short-sleeved shirt or a shirt with sleeves that can be rolled up"
                     ].map((tip, index) => (
                       <li key={index} className="flex items-start text-gray-700">
                         <span className="text-blood-500 mr-2">•</span>
